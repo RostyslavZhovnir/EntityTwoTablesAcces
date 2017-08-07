@@ -17,7 +17,7 @@ namespace SandBoxOne.Controllers
         // GET: Departments
         public ActionResult Index()
         {
-            return View(db.Departments.ToList());
+            return View(db.Departments.ToList()) ;
         }
 
         // GET: Departments/Details/5
